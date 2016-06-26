@@ -1,0 +1,155 @@
+FILE nes2004panel_app.txt
+-------------------------
+American National Election Studies: 2004 Panel Study (2004.S)
+Codebook appendix file
+VERSION 20050502 (May 2, 2005)
+
+
+>> 2004 PANEL APPENDIX:  2000 NATIONAL ELECTION STUDY SAMPLE DESIGN
+
+STUDY POPULATION
+
+     The study population for the 2000 Pre- and Post-Election Study is defined
+to include all United States citizens of voting age on or before the 2000
+Election Day.  Eligible citizens must have resided in housing units in the
+forty-eight coterminous states.  This definition excludes persons living in
+Alaska or Hawaii and requires eligible persons to have been both a United
+States citizen and eighteen years of age on or before the 7th of November
+2000.
+
+>> DUAL FRAME SAMPLE DESIGN
+
+The 2000 NES is a dual frame sample with both an area sample and an RDD 
+component.  The RDD frame provides coverage of telephone households while the 
+area sample provides full coverage of all U.S. households including those 
+without telephones.  Each of these sample designs will be described in the 
+following sections.  The 2000 NES data set contains 1006 area sample cases 
+and 801 telephone sample cases.
+
+>> FTF SAMPLE DESIGN - MULTI-STAGE AREA PROBABILITY
+
+The area sample is based on a multi-stage area probability sample selected 
+from the Survey Research Center's (SRC) 1990 National Sample design. 
+Identification of the 2000 NES sample respondents was conducted using a four 
+stage sampling process--a primary stage sampling of U.S. Metropolitan
+Statistical Areas (MSAs) or New England County Metropolitan Areas (NECMAs) 
+and non-MSA counties, followed by a second stage sampling of area segments, a 
+third stage sampling of housing units within sampled area segments and 
+concluding with the random selection of a single respondent from selected 
+housing units.  A detailed documentation of the 1990 SRC National Sample, 
+from which the 2000 NES sample was drawn, is provided in the SRC publication 
+titled 1990 SRC National Sample: Design and Development.  
+
+The 2000 NES sample design called for an entirely new cross-section sample to 
+be drawn from the 1990 SRC National Sample; no panel component was included 
+in 2000.    The 1990 SRC National Sample is a multi-stage area probability 
+sample.  The 2000 NES sample was drawn from both the 1990 SRC National Sample 
+strata (MSA PSUs) and the 1980 SRC National Sample strata  (non-MSA PSUs). 
+The modification of the 1990 design in which the 1980 strata definitions were 
+used for the non-MSA counties fully represents the non-MSA domain of the 48 
+contiguous states.  This modification was made for cost and interviewing 
+efficiency reasons related to the availability of interviewers in these areas 
+who work on some of SRC's large panel studies.  The following sections will 
+focus on the 1990 SRC National Sample design.
+
+
+Selection Stages for the 2000 NES FTF Sample: 1990 SRC National Sample
+------------------------------------------------------------------
+
+Primary Stage Selection
+
+The selection of primary stage sampling units (PSUs) for the 1990 SRC 
+National Sample, which depending on the sample stratum are either MSAs, New 
+England County Metropolitan Areas (NECMAs), single counties, independent 
+cities, county equivalents or groupings of small counties, is based on the 
+county-level 1990 Census Reports of Population and Housing (1).  Primary stage 
+units were assigned to 108 explicit strata based on MSA/NECMA or non-
+MSA/NECMA status, PSU size, Census Region and geographic location within 
+region.  Twenty-eight of the 108 strata contain only a single self-
+representing PSU, each of which is included with certainty in the primary 
+stage of sample selection.  The remaining 80 nonself-representing strata 
+contain more than one PSU.  From each of these nonself-representing strata, 
+one PSU was sampled with probability proportionate to its size (PPS) measured 
+in 1990 occupied housing units. 
+
+The full 1990 SRC National Sample of 108 primary stage selections was 
+designed to be optimal for surveys roughly three to five times the size of 
+the 2000 NES.  To permit the flexibility needed for optimal design of smaller 
+survey samples, the primary stage of the SRC National Sample can be readily 
+partitioned into smaller subsamples of PSUs such as a one-half sample or a 
+three-quarter sample partition.  Each of the partitions represents a 
+stratified subselection from the full 108 PSU design.  The 2000 NES sample of 
+44 PSUs is a stratified random subsample of PSUs from the "A" half-sample 
+partition of the 1990 SRC National Sample.  Because of the small size of this 
+NES sample, both the number of PSUs (selected primary areas) and the 
+secondary stage units (area segments) in the National half-sample were 
+reduced by subselection for the 2000 NES sample design.  The 18 self-
+representing areas in the 1990 SRC National half-sample were all retained for 
+the 2000 NES sample (8 of these remained self-representing in the 2000 NES 
+and 10 represent not only their own MSA but their "pair" among the twenty 
+additional self-representing primary areas of the full 1990 SRC National 
+Sample design).  Nineteen of the 26 nonself-representing half-sample MSAs and 
+7 of the 14 half-sample non-MSAs were retained by the subselection for the 
+2000 NES sample (or 26 of 40 NSR PSUs).
+
+(1)  Office of Management and Budget (OMB) June 1990 definitions of MSAs,
+NECMAs, counties, parishes, independent cities.  These, of course, differ in
+some respects from the primary stage unit (PSU) definitions used in the 1980
+SRC National Sample so will not be strictly comparable to the 1996 NES Panel
+PSUs--particularly in New England where MSAs were used as PSUs in the 1980
+National Sample and NECMAs were used as PSUs in the 1990 National Sample.
+
+Second Stage Selection Area Segments
+
+The second stage of the 1990 SRC National Sample, used for the 2000 NES 
+sample, was selected directly from computerized files that were extracted for 
+the selected PSUs from the 1990 U.S. Census summary file series STF1-B.  
+These files (on CD Rom) contain the 1990 Census total population and housing 
+unit (HU) data at the census block level.  The designated second-stage 
+sampling units (SSUs), termed "area segments", are comprised of census blocks 
+in both the metropolitan (MSA) primary areas and in the rural areas of non-
+MSA primary areas.  Each SSU block or block combination was assigned a 
+measure of size equal to the total 1990 occupied housing unit count for the 
+area.  SSU block(s) were assigned a minimum measure of 72 1990 total HUs per 
+MSA SSU and a minimum measure of 48 total HUs per non-MSA SSU.  Second stage 
+sampling of area segments was performed with probabilities proportionate to 
+the assigned measures of size (PPS).  
+
+For the 2000 NES sample the number of area segments used in each PSU varies. 
+In the self-representing (SR) PSUs the number of area segments varies in 
+proportion to the size of the primary stage unit, from a high of 12 area 
+segments in the self-representing New York and Los Angeles MSA PSUs, to a low 
+of 6 area segments in the smaller self-representing PSUs such as Cleveland, 
+Miami-Hialeah or Nassau-Suffolk MSAs.  All nonself-representing (NSR) PSUs 
+were represented by 6 area segments each. A total of 279 NES area segments 
+were selected as shown in Table 1.
+
+Third Stage Selection Housing Units
+
+For each area segment selected in the second sampling stage, a listing had 
+been made of all housing units located within the physical boundaries of the 
+segment.  For segments with a very large number of expected housing units, 
+all housing units in a subselected part of the segment were listed.  The 
+final equal probability sample of housing units for the 2000 NES sample was 
+systematically selected from the housing unit listings for the sampled area 
+segments.
+
+The 2000 NES sample design was selected from the 1990 SRC National Sample to 
+yield an equal probability sample of 2269 listed housing units.  This total 
+included 1972 housing units for the main sample and three reserve replicates 
+of 99 cases each.  Table 2 below shows the assumptions that were used to 
+determine the number of sample housing units.  The overall probability of 
+selection for 2000 NES cross-section sample of households was f=0.00002116 or 
+0.2116 in 10,000.  The equal probability sample of households was achieved 
+for the 2000 NES sample by using the standard multi-stage sampling technique 
+of setting the sampling rate for selecting housing units within area segments 
+to be inversely proportional to the PPS probabilities used to select the PSU 
+and area segment (Kish, 1965).
+
+Fourth Stage Selection - Respondent Selection
+
+Within each sampled 2000 NES occupied housing unit, the SRC interviewer 
+prepared a complete listing of all eligible household members.  Using an 
+objective procedure described by Kish (1949) a single respondent was then 
+selected at random to be interviewed.  Regardless of circumstances, no 
+substitutions were permitted for the designated respondent.

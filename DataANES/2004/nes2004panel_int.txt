@@ -1,0 +1,856 @@
+FILE nes2004panel_int.txt
+-------------------------
+American National Election Studies: 2004 Panel Study (2004.S)
+Codebook introduction file
+VERSION 20050502 (May 2, 2005)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 AMERICAN NATIONAL ELECTION STUDIES:
+
+                           2004 PANEL STUDY
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+                               CODEBOOK
+
+
+
+
+
+
+
+
+
+
+
+                     Center for Political Studies
+                     Institute for Social Research
+                      The University of Michigan
+
+
+
+
+
+
+
+
+                         
+
+CITATION
+
+
+
+The National Election Studies (www.umich.edu/~nes). THE 2004 NES PANEL 
+STUDY [dataset]. Ann Arbor, MI: University of Michigan, Center for 
+Political Studies [producer and distributor].
+
+These materials are based on work supported by the Carnegie Corporation
+of New York (under grant "D B 7532.R01"), and the University of Michigan.
+
+Any opinions, findings and conclusions or recommendations expressed in these
+materials are those of the author(s) and do not necessarily reflect the
+views of the funding organizations.
+
+
+
+                           TABLE OF CONTENTS
+
+        Note: >> sections in the codebook introduction and
+                 codebook appendix can be navigated in the
+                 machine-readable files by searching ">>".
+
+
+
+INTRODUCTORY MATERIALS (this file)
+----------------------
+>> 2004 PANEL STUDY: GENERAL INTRODUCTION
+>> 2004 PANEL STUDY: STUDY DESCRIPTION
+>> 2004 PANEL STUDY: STUDY CONTENT AND ADMINISTRATION
+>> 2004 PANEL STUDY: SAMPLING AND WEIGHT INFORMATION
+>> 2004 PANEL STUDY: NOTE ON CONFIDENTIAL VARIABLES
+>> 2004 PANEL STUDY: FILE STRUCTURE AND INFORMATION
+>> 2004 PANEL STUDY: PROCESSING INFORMATION
+>> 2004 PANEL STUDY: CODEBOOK INFORMATION
+>> 2004 PANEL STUDY: VARIABLE DESCRIPTION LIST
+
+
+
+VARIABLE DOCUMENTATION (file nes2004panel_var.txt)
+----------------------
+P040001 Study IDs
+P040101 Study weights
+P041001 Study-level administration
+P041201 Sampling/geocodes
+P044001 Post field and administration
+P044101 Post interviewer description
+P044201 Post error flags
+P044401 Post randomization
+P044501 Post candidate
+P045001 Post survey
+P045201 Post survey interviewer observation 
+
+
+
+APPENDICES (file nes2004panel_app.txt)
+----------
+>> 2004 PANEL STUDY: 2000 SAMPLING INFORMATION
+
+
+
+
+
+
+
+
+>> 2004 PANEL STUDY: GENERAL INTRODUCTION
+
+The 2004 Panel Study was conducted between November 3 and December 20 
+of the year 2004. The study consisted of a post-election survey 
+of 840 respondents who had previously provided an interview in both 
+the 2000 NES study and the 2002 NES study.  
+
+Accompanying the dataset is a codebook containing detailed variable 
+descriptions, as well as data descriptor statement files that can be used
+to read the raw data file into common data analysis software packages
+such as SAS, SPSS, and STATA.  
+   
+>> 2004 PANEL STUDY: STUDY DESCRIPTION
+
+The 2004 Panel Study was conducted by the Center for Political Studies 
+at the Institute for Social Research, under the general direction of the 
+Principal Investigators, Nancy Burns and Donald R. Kinder. Data collection 
+services were provided by Schulman, Ronca & Bucuvalas (SRBI), using
+interviewers stationed in New York City.
+
+This is the latest in a series of studies of American national elections 
+produced by the Center for Political Studies at the University of 
+Michigan.  The study would not have been possible without the financial
+support of the Carnegie Corporation of New York (under grant 
+"D B 7532.R01") and the University of Michigan.
+
+The 2004 Panel Study was designed through consultation between the 
+Principal Investigators and a national Board of Overseers. Board members 
+during the 2004 Panel Study included John H. Aldrich (Duke University), 
+Stephen Ansolabehere (Massachusetts Institute of Technology), Nancy 
+Burns, ex officio (University of Michigan), Russell Dalton (University 
+of California - Irvine), John Mark Hansen, chair (University of Chicago), 
+Simon Jackman (Stanford University), Donald  Kinder, ex officio 
+(University of Michigan), Jon A. Krosnick (Ohio State University), 
+Arthur Lupia (University of Michigan), Diana C. Mutz (University of 
+Pennsylvania), and Wendy Rahn (University of Minnesota).
+
+Additional information concerning the 2004 Panel Study, including 
+notification of select errors discovered and made known to NES Staff 
+after the data release date, can be found on the NES Website 
+(http://www.umich.edu/~nes). Any questions not answered on the website 
+or by this codebook can be directed to the NES Staff by e-mail to 
+"nes@umich.edu" or by regular postal service to the address below.
+
+National Election Studies (NES) Staff
+Center for Political Studies
+Institute for Social Research, 4100 Bay
+University of Michigan
+426 Thompson Street
+Ann Arbor, MI 48104-2321
+E-Mail: nes@umich.edu
+Website: http://www.umich.edu/~nes
+
+>> 2004 PANEL STUDY: STUDY CONTENT AND ADMINISTRATION
+
+This study completes the 2000-2002-2004 Panel Study, in which we 
+re-interviewed a sample of voting age Americans in the fall of 2004, 
+immediately after the presidential election. These respondents were first 
+questioned by the National Election Study in the fall of 2000 and then 
+again in the fall of 2002. Interviewing this sample one last time, at 
+the climax of the 2004 presidential campaign, makes possible a uniquely 
+valuable analysis of the political consequences of historic events. We 
+know a great deal about this sample – what they thought about politics 
+and society and the place of the United States in the world – before 
+history intruded so forcefully on their lives: before the unprecedented 
+election contest of 2000 and before the terrorist attack of September 
+11th. We know, from the 2002 interviews, what sense they began to make 
+of these events. Having interviewed the same people again in 2004 
+enables us to complete the story, to trace out the political 
+implications of the turbulent history of the last four years. Such 
+implications include Americans' willingness to participate in 
+politics, their satisfaction with democratic institutions, their 
+support for an ongoing war on terrorism, and in light of the 
+changed landscape of international politics, the priority they 
+assign to such domestic matters as growth, deficits, and inequality.
+
+The 2004 phase of the panel study was given in large part to questions 
+that capture the likely consequences of the election contest of 2000 
+and the terrorist attack of September 11th, as understood and 
+interpreted by ordinary Americans. This included instrumentation on 
+participation in political and civic life, satisfaction with democratic 
+institutions, support for administration policy, views on Afghanistan, 
+Iraq, and homeland security.
+
+The survey, which was post-election only, began on November 3, 2004 and 
+ended December 20, 2004. Data collection was conducted by Schulman, Ronca 
+& Bucuvalas (SRBI), using interviewers stationed in New York City.  All
+interviewing was conducted by telephone using Computer-Assisted Telephone 
+Interviewing (CATI) technology.  The CATI instrument was programmed using 
+SPSS Quancept. All interviews were conducted in English, as there were no 
+translations of the questionnaire to a language other than English.
+
+The sample was all released at the beginning of the field period. 
+Interview length averaged 45 minutes. Randomization was used extensively 
+throughout the questionnaire, for purposes of randomizing order within 
+batteries or question series, application of half-sampling to some 
+questions, and random ordering of question blocks.  
+
+The sample for the 2004 Panel Study consisted of the 1,187 panel 
+respondents that provided a pre-election interview in the 2002 NES.  
+Please note that the 324 fresh cross-section respondents that participated
+in the 2002 NES were not part of the sample for this study.
+
+Users are advised to become familiar with the weight variable provided in
+the dataset, and apply it as appropriate to their analyses. 
+
+Eligibility: All panel cases were considered eligible based on their 
+participation in the 2002 NES study, unless they were found to be 
+deceased at the time of the 2004 Panel Study (16 persons became deceased 
+in the interim).  
+
+Interviews: Interviews were either considered a completion, or not a 
+completion - partial interviews were not accepted.  
+
+2004 Panel Study: Response Rates
+
+Interviews   Eligible   Reinterview Rate
+----------------------------------------
+       840       1171              71.8%
+
+The reinterview rate was calculated as the number of completed 
+interviews (840) over the number of eligible respondents (1171).  The 
+number of eligible respondents was calculated as the number of panel 
+respondents who provided a 2002 NES pre-election interview (1187) minus 
+the number of respondents deceased since the 2002 NES study (16).
+
+The original 2000 NES study sample consisted of 2,984 eligible respondents.
+Of those persons 1,807 (60.6%) provided a pre-election interview in 2000.
+Of those 1,807 persons, 1,187 (65.7%) provided a pre-election interview in 
+2002. Of those 1,187 persons, 840 (70.9%) provided an interview in 2004.  
+Thus, the 840 persons that provided an interview in 2002 comprise 28.2%
+(28.2% = 840/2984 = 60.6% * 65.7% * 70.9%) of the original set of eligible
+sample members in 2000.
+
+The field and study staff implemented a number of strategies throughout
+the study to bolster response rates.  
+
+Respondents received advance mailings by two-day USPS priority mail with a
+letter, brochure, two dollar bill, and a token gift (notepad) enclosed.  
+Also included was a contact card (with the panel member's name, address 
+and phone number, and a message to have them call our toll free line 
+or mail back the card if the information was not correct), and a 
+postage-paid envelope to return the card in. Each respondent was offered 
+$20, $40, or $50 as an incentive for their interview - the amount offered 
+was whatever maximum amount was offered to them during the 2000 and 
+2002 studies. Cases that showed resistance to interview were usually 
+mailed a letter tailored to their reason for resistance, and offering 
+$50 for their interview. Cases that showed reluctance to interview were 
+to be called back by an interviewer with refusal conversion experience.
+
+On November 30th we began offering all respondents $50 for their interview
+when we called. On December 2nd a letter was mailed to all cases that had 
+not yet yielded a completion; the letter mentioned the incentive of $50 
+per interview.
+
+>> 2004 PANEL STUDY: SAMPLING AND WEIGHT INFORMATION
+
+The initial sample drawn in 2000 for the 2000 NES serves as the total
+sample for the 2000-2002-2004 panel, and is documented in "2004 PANEL STUDY:
+2000 SAMPLE DESIGN" in the codebook appendix file.
+
+Panel weight P040101 is constructed for longitudinal analysis; marginals
+are unweighted.
+
+
+>> 2004 PANEL STUDY: NOTE ON CONFIDENTIAL VARIABLES
+
+Permission to use, for approved scholarly research, the more detailed
+geographic-information variables documented in this codebook (but not
+available in the public-release datafile) may be obtained through special
+permission from the NES Board of Overseers. 
+
+In addition, text responses to open-ended questions are kept strictly
+confidential except through special permission obtained from the NES
+Board of Overseers for researchers who wish to develop coding schemes
+pursuant to an approved scholarly research. 
+
+More information about special permission is available from the NES 
+website or from NES staff.
+
+
+>> 2004 PANEL STUDY: FILE STRUCTURE AND INFORMATION
+
+The data file for the AMERICAN NATIONAL ELECTION STUDY, 2004 PANEL STUDY 
+is constructed with a single logical record for each respondent.  There 
+are 418 variables for 840 respondents.
+
+The 'version' for released study files from the 2004 Panel Study (raw 
+ASCII data file, data descriptor statement files, or codebook
+files) corresponds to the date on which the file was made available
+to the public.  The date of codebook and data descriptor files (SAS, SPSS, 
+and STATA statement files) appears at the head of the file.  When a
+new raw ASCII data file is released, the variable VERSION identifies the
+date of the file.
+
+
+>> 2004 PANEL STUDY: PROCESSING INFORMATION
+
+The data collection was processed according to standard processing procedures. 
+The data were checked for inconsistent code values which, when found, were
+corrected or recoded to missing data values. Consistency checks were
+performed.  Annotation was added by the processors for explanatory
+purposes. 
+
+>> 2004 PANEL STUDY: CODEBOOK INFORMATION
+
+              EXAMPLE OF CODEBOOK VARIABLE DOCUMENTATION
+
+01  ========================================================================
+02  V035246     Q9a. Party of Pres vote -party performance past 4 yrs
+03  ========================================================================
+04
+05  IF R VOTED:
+06  IF R VOTED FOR PRESIDENT:
+07  IF PRESIDENTIAL VOTE WAS FOR MAJOR PARTY CANDIDATE/
+08  IF PRESIDENTIAL VOTE WAS FOR OTHER PARTY CANDIDATE:
+09
+10  QUESTION:
+11  ---------
+12  You've indicated that you voted for the [>NAME OF MAJOR PARTY<
+13  Presidential candidate/Presidential candidate from the >NAME
+14  OF OTHER PARTY< party] in 2004.
+15  How well has [the >NAME OF MAJOR PARTY< party/ that party] performed 
+16  over the past four years? Has it done a VERY GOOD job? a GOOD job? 
+17  A BAD job? A VERY BAD job? (in general)
+18
+19  INTERVIEWER INSTRUCTION:
+20  ------------------------
+21  {INTERVIEWER: DO NOT PROBE DON'T KNOW}
+22
+23  VALID CODES:
+24  ------------
+25  1. Very good job
+26  2. Good job
+27  3. Bad job
+28  4. Very bad job
+29
+30  MISSING CODES:
+31  --------------
+32  8. Don't know
+33  9. Refused
+34  INAP. 5,8,9 in C1a or 1-3,8,9 in C1b; 5,8,9 in C6; 7,8,9 in
+35  Q9x; no post IW
+36
+37  NOTES:
+38  ------
+39  Text corresponding to C6a party of vote for President was
+40  included in the question text.
+41
+42  TYPE:
+43  -----
+44  Numeric  Dec 0
+45
+
+..........................................................................
+NOTE: THIS EXAMPLE DOES NOT REPRESENT AN ACTUAL NES VARIABLE
+
+LINE 02
+Contains identifiers, including (left to right) the variable name, the
+question "tag" or item number (Q9a), and the variable label.  Since the
+variable label begins with the question tag, the question tag only appears
+once, as part of the variable label.
+
+LINES 05-08
+This describes who is being asked the question, inverse to the INAP
+conditions (lines 34-35).  Each line ending with ":" describes one condition
+that has been met to reach this question.
+"/" at the end of a line is equivalent to an "OR" between the condition
+preceding and the condition following the "/".  In this example, respondents
+who were asked this question were respondents who 1) said they voted, and
+who 2) said they voted specifically for President, and who 3) voted for a
+major party Presidential candidate OR for another party's candidate.  Note
+that a corresponding "/" sometimes appears in the question text when
+question wording varies according to which of the OR conditions applies. See
+lines 12-17.
+
+LINES 12-17
+Several conventions are observed in codebook presentation of question text.
+1) Text bracketed between ">" and "<" (line 12, line 15) indicates that
+   case-specific text was loaded onto the instrument by the survey
+   application.
+   In this example, ">NAME OF MAJOR PARTY<" indicates that either 
+   "Democratic" or "Republican" was loaded into the question text, 
+   depending up which major party candidate R indicated he had voted for
+   earlier in the questionnaire   
+2) Text bracketed between "[" and "]" (lines 12-14; line 15) displays
+   text options, separated by "/".  In this example, the first option is for
+   Rs who had voted for a major party candidate; the first 2 sentences read
+   to these respondent are:
+  "You've indicated that you voted for the >NAME OF MAJOR PARTY< 
+   Presidential candidate in 2004. How well has the >NAME OF MAJOR PARTY<
+   party performed over the past four years?"
+   On the other hand, in this example, if R voted for another party's
+   candidate, the first 2 sentences are:
+  "You've indicated that you voted for the >NAME OF OTHER PARTY< party in
+   2004. How well has that party performed over the past four years?"
+3) Text in parentheses (line 17) is read at the interviewer's discretion.
+4) Text in CAPS, other than text bracketed with ">" "<" per 1), indicates
+   words or phrases that appeared underlined in the instrument for emphasis.
+   In this example (lines 16-17), the words "very good", "good", "bad", and 
+   "very bad" had appeared underlined for interviewer emphasis..
+
+LINE 21
+With few exceptions, interviewer instructions appear in the instrument
+immediately following the question text.
+
+LINES 34-35
+INAP describes the specific paths of all respondents whom the instrument
+skips over the question.  Each condition which results in a skip is listed,
+separated by ";".
+
+>> 2004 PANEL STUDY: VARIABLE DESCRIPTION LIST
+
+
+Variable      Description
+---------     ------------
+
+ VERSION      Study.1. Version of 2004 Panel Study Data
+ DSETID       Study.2. 2004 Panel Study Dataset ID
+ P040001      Study.3. 2004 Panel Study Case ID
+ P040002      Study.4. 2002 NES Pre-Election Case ID
+ P040003      Study.5. 2000 NES Pre-Election Case ID
+ P040101      Study.6. 2004 Panel weight
+ P041001      Study.7. Panel participation 2000-2002-2004
+ P041201      Sampling.1. 2004 State Name
+ P041201a     Sampling.1a. 2004 Postal Abbreviation Of State
+ P041202      Sampling.2. 2004 FIPS State Code
+ P041203      Sampling.3. 2004 ICPSR State Code
+ P041204      Sampling.4. 2004 Congressional District Number
+ P041204a     Sampling.4a. 2004 State Postal Abbrev And Congr District Number
+ P041204b     Sampling.4b. 2004 State FIPS Code And Congr District Number
+ P041204c     Sampling.4c. 2004 State ICPSR Code And Congr District Number
+ P041205      Sampling.5. 2004 Census Region
+ P041206      Sampling.6. 2000 NES Primary Area (PSU) Number
+ P041207      Sampling.7. 2000 NES Segment Number
+ P041208      Sampling.8. 2004 FIPS State-County Code
+ P041208a     Sampling.8a. 2004 FIPS County Name
+ P041209      Sampling.9. 2004 Address - 2000 Census Tract Number
+ P041210      Sampling.10. 2004 Address - 2000 Census Place Code
+ P041211      Sampling.11. 2004 Address - 2000 Census MCD code
+ P041212      Sampling.12. 2004 Address - 1990 Census MSA
+ P041213      Sampling.13. 2004 Address - 2000 Census Urban/Rural
+ P041214      Sampling.14. 2004 Address - 2000 Census CSA
+ P041214a     Sampling.14a. 2004 Address - 2000 Census CBSA
+ P041215      Sampling.15. 2002 FIPS State and Congressional District
+ P041216      Sampling.16. 2000 FIPS State and Congressional District
+ P044001      PostAdmin.1. Form Of Post Interview
+ P044002      PostAdmin.2. Release
+ P044003      PostAdmin.3. Mode Of Interview
+ P044004      PostAdmin.4. Number Of Calls
+ P044005      PostAdmin.5. Result
+ P044006      PostAdmin.6. Language Of Interview
+ P044007      PostAdmin.7. Interview Verification
+ P044008      PostAdmin.8. Interview Evaluation
+ P044009      PostAdmin.9. Interview Tape-Recorded
+ P044010      PostAdmin.10. Interviewed In Parts
+ P044011      PostAdmin.11. Number Of Parts
+ P044012      PostAdmin.12. Number Of Interviewers For Each Interview
+ P044013a     PostAdmin.13a. Interview Session 1 Interviewer ID
+ P044013b     PostAdmin.13b. Interview Session 1 Date (MMDD)
+ P044013c     PostAdmin.13c. Interview Session 1 Breakoff
+ P044014a     PostAdmin.14a. Interview Session 2 Interviewer ID
+ P044014b     PostAdmin.14b. Interview Session 2 Date (MMDD)
+ P044014c     PostAdmin.14c. Interview Session 2 Breakoff
+ P044015a     PostAdmin.15a. Interview Session 3 Interviewer ID
+ P044015b     PostAdmin.15b. Interview Session 3 Date (MMDD)
+ P044016      PostAdmin.16. Total Length of Interview
+ P044017      PostAdmin.17. Timezone of Interview
+ P044018      PostAdmin.18. Date Interview Completed (MMDD)
+ P044019      PostAdmin.19. Number Of Days After Election IW Completed
+ P044020      PostAdmin.20. Interviewer Interview Number (nth IW)
+ P044021      PostAdmin.21. Payment 1 Amount
+ P044022      PostAdmin.22. Payment 1 Mode
+ P044023      PostAdmin.23. Payment 1 Date (MMDD)
+ P044024      PostAdmin.24. Payment 2 Amount
+ P044025      PostAdmin.25. Payment 2 Mode
+ P044026      PostAdmin.26. Payment 2 Date (MMDD)
+ P044027      PostAdmin.27. Respondent Incentive
+ P044028      PostAdmin.28. Final Persuasion Letter 12/03/2004
+ P044029      PostAdmin.29. Refusal Conversion Letter Sent
+ P044029a     PostAdmin.29a. Refusal Conversion Letter Type
+ P044029b     PostAdmin.29b. Refusal Conversion Letter Mail Priority
+ P044029c     PostAdmin.29c. Refusal Conversion Letter Mail Date
+ P044101      PostIwr.1. Interviewer Of Record (IWR ID)
+ P044102      PostIwr.2. Interviewer Gender
+ P044103      PostIwr.3. Interviewer Education Level
+ P044104      PostIwr.4. Interviewer Race
+ P044105      PostIwr.5. Interviewer Ethnicity
+ P044106      PostIwr.6. Interviewer Languages
+ P044107      PostIwr.7. Interviewer Yrs Experience
+ P044108      PostIwr.8. Interviewer Age (Bracketted)
+ P044201      PostErr.1. Error Flag for Diplomacy/Military Force Items
+ P044401      PostRand.1a. Pos Kerry - Polit Figs Thermometers
+ P044402      PostRand.1b. Pos Cheney - Polit Figs Thermometers
+ P044403      PostRand.1c. Pos Gore - Polit Figs Thermometers
+ P044404      PostRand.1d. Pos Edwards - Polit Figs Thermometers
+ P044405      PostRand.1e. Pos Nader - Polit Figs Thermometers
+ P044406      PostRand.1f. Pos Clinton - Polit Figs Thermometers
+ P044407      PostRand.1g. Pos Powell - Polit Figs Thermometers
+ P044408      PostRand.1h. Pos Ashcroft - Polit Figs Thermometers
+ P044409      PostRand.1j. Pos Jackson - Polit Figs Thermometers
+ P044410      PostRand.1k. Pos Laura Bush - Polit Figs Thermometers
+ P044411      PostRand.1m. Pos Hillary Clinton - Polit Figs Thermometers
+ P044412      PostRand.2a. Pos Supreme Crt-Group Therms
+ P044413      PostRand.2b. Pos Congress-Group Therms
+ P044414      PostRand.2c. Pos Military-Group Therms
+ P044415      PostRand.2d. Pos Federal Govt-Group Therms
+ P044416      PostRand.2e. Pos Blacks-Group Therms
+ P044417      PostRand.2f. Pos Whites-Group Therms
+ P044418      PostRand.2g. Pos Conservatives-Group Therms
+ P044419      PostRand.2h. Pos Liberals-Group Therms
+ P044420      PostRand.2j. Pos Unions-Group Therms
+ P044421      PostRand.2k. Pos Big Business-Group Therms
+ P044422      PostRand.2m. Pos Poor People-Group Therms
+ P044423      PostRand.2n. Pos People On Welfare-Group Therms
+ P044424      PostRand.2p. Pos Hispanics-Group Therms
+ P044425      PostRand.2q. Pos Christian Fundam-Group Therms
+ P044426      PostRand.2r. Pos Elderly-Group Therms
+ P044427      PostRand.2s. Pos Environmentalists-Group Therms
+ P044428      PostRand.2t. Pos Homosexuals-Group Therms
+ P044429      PostRand.2u. Pos Catholics-Group Therms
+ P044430      PostRand.2v. Pos Jews-Group Therms
+ P044431      PostRand.2w. Pos Protestants-Group Therms
+ P044432      PostRand.2y. Pos Feminists-Group Therms
+ P044433      PostRand.2z. Pos Asian-Americans-Group Therms
+ P044434      PostRand.2za. Pos News Media-Group Therms
+ P044435      PostRand.2zb. Pos Catholic Church-Group Therms
+ P044436      PostRand.2zc. Pos Men-Group Therms
+ P044437      PostRand.2zd. Pos Women-Group Therms
+ P044438      PostRand.3a. AIDS Research - Fed Spending
+ P044439      PostRand.3b. Welfare - Fed Spending
+ P044440      PostRand.3c. Public/Big-City Schools - Fed Spending
+ P044441      PostRand.3d. Crime - Fed Spending
+ P044442      PostRand.3e. Child Care - Fed Spending
+ P044443      PostRand.3f. Homeland Sec/War On Terror - Fed Spending
+ P044444      PostRand.3g. Poor/Working Poor - Fed Spending
+ P044445      PostRand.3h. Foreign Aid - Fed Spending
+ P044446      PostRand.3j. Social Security - Fed Spending
+ P044447      PostRand.3k. Border Security - Fed Spending
+ P044448      PostRand.3m. Aid To Blacks - Fed Spending
+ P044449      PostRand.3n. Early Education - Fed Spending
+ P044450      PostRand.3p. Defense - Fed Spending
+ P044451      PostRand.4. Public/Big-City Schools Wording
+ P044452      PostRand.5. Homeland Sec/War On Terrorism Wording
+ P044453      PostRand.6. Poor People/Working Poor Wording
+ P044454      PostRand.7. Early Ed For Poor/Black Children Wording
+ P044455      PostRand.8a. Pos Provides Strong Leadership Trait
+ P044456      PostRand.8b. Pos Moral Trait
+ P044457      PostRand.8c. Pos Out Of Touch Trait
+ P044458      PostRand.8d. Pos Knowledgeable Trait
+ P044459      PostRand.9a. Pos Provides Strong Leadership Trait
+ P044460      PostRand.9b. Pos really Cares Trait
+ P044461      PostRand.9c. Pos Dishonest Trait
+ P044462      PostRand.9d. Pos Intelligent Trait
+ P044463      PostRand.10. Order Party Plcmnt Diplomacy Scale
+ P044464      PostRand.11. Order rich/Poor Pay Taxes
+ P044465      PostRand.12. Order Party Plcmnt Govt Services
+ P044466      PostRand.13. Order Party Plcmnt Affirm Action
+ P044467      PostRand.14. Order Party Plcment Equal Pay Women
+ P044468      PostRand.15. Order Working Women Items
+ P044501      PostCand.1. 2004 House Type race
+ P044502      PostCand.2. 2004 Senate Type race
+ P044503a     PostCand.3a. 2000-2002 Move Status
+ P044503b     PostCand.3b. 2002-2004 Move Status
+ P044503c     PostCand.3c. 2000-2004 Move Status
+ P044504a     PostCand.4a. 2000-2002 Change in district number
+ P044504b     PostCand.4b. 2002-2004 Change in district number
+ P044504c     PostCand.4c. 2000-2004 Change in district number
+ P044505a     PostCand.5a. 2000-2002 District Status
+ P044505b     PostCand.5b. 2002-2004 District Status
+ P044505c     PostCand.5c. 2000-2004 District Status
+ P044506      PostCand.6. 2000-2002 Same House Candidates
+ P044506a     PostCand.6a. 2002-2004 Same House Candidates
+ P044506b     PostCand.6b. 2004 House Retiree Status in 2002
+ P045001      Q1.f2a2. Watch Campaign TV Programs
+ P045002      Q2.f2a3. R Discuss Politics With Family/Friends
+ P045002a     Q3.f2a3a. How Often R Discuss Politics
+ P045003      Q4.f1q1.Did R Vote In 2000 Presidential Election
+ P045003a     Q5.f1q1a. R Vote Choice 2000 Presidential Election
+ P045004      Q7.f1q2c. 2000 Presidential Elect Fair/Unfair
+ P045004a     Q8.f1q2c1. How Fair/Unfair 2000 Presidential Elect
+ P045004x     Q9.f1q2cx. How Fair/Unfair 2000 Pres Elect-Summary
+ P045005      Q10.f1a12. App/Disapp GW Bush Handling Job As Pres
+ P045005a     Q11.f1a12a. Strength App/Disapp GW Bush Job As Pres
+ P045005x     Q12.f1a12x. App/Disapp GW Bush Job As Pres-Summary
+ P045006      Q13.f1h5. Approve/Disapp GW Bush Handling Economy
+ P045006a     Q14.f1h5a. Strength App/Disapp GW Bush On Economy
+ P045006x     Q15.f1h5x. App/Disapp GW Bush On Economy-Summary
+ P045007      Q16.f1c1a. George W. Bush Thermometer
+ P045008      Q17.f1c1a1. John Kerry Thermometer
+ P045009      Q18.f1c1b. Dick Cheney Thermometer
+ P045010      Q19.f1c1c. Al Gore Thermometer
+ P045011      Q20.f1c1d. John Edwards Thermometer
+ P045012      Q21.f1c1e. Ralph Nader Thermometer
+ P045013      Q22.f1c1f. Bill Clinton Thermometer
+ P045014      Q23.f1c1h. Colin Powell Thermometer
+ P045015      Q24.f1c1j. John Ashcroft Thermometer
+ P045016      Q25.f1c1m. Jesse Jackson Thermometer
+ P045017      Q26.f1c1p. Laura Bush Thermometer
+ P045018      Q27.f1c1r. Hillary Clinton Thermometer
+ P045019      Q28.f2d2a. Supreme Court Thermometer
+ P045020      Q29.f2d2b. Congress Thermometer
+ P045021      Q30.f2d2c. Military Thermometer
+ P045022      Q31.f2d2d. Federal Government Thermometer
+ P045023      Q32.f2d2e. Blacks Thermometer
+ P045024      Q33.f2d2f. Whites Thermometer
+ P045025      Q34.f2d2g. Conservatives Thermometer
+ P045026      Q35.f2d2h. Liberals Thermometer
+ P045027      Q36.f2d2j. Labor Unions Thermometer
+ P045028      Q37.f2d2k. Big Business Thermometer
+ P045029      Q38.f2d2m. Poor People  Thermometer
+ P045030      Q39.f2d2n. People On Welfare Thermometer
+ P045031      Q40.f2d2p. Hispanics Thermometer
+ P045032      Q41.f2d2q. Christian Fundamentalists Thermometer
+ P045033      Q42.f2d2r. Elderly Thermometer
+ P045034      Q43.f2d2s. Environmentalists Thermometer
+ P045035      Q44.f2d2t. Gay Men And Lesbians Thermometer
+ P045036      Q45.f2d2u. Catholics Thermometer
+ P045037      Q46.f2d2v. Jews Thermometer
+ P045038      Q47.f2d2w. Protestants Thermometer
+ P045039      Q48.f2d2y. Feminists Thermometer
+ P045040      Q49.f2d2z. Asian-Americans Thermometer
+ P045041      Q50.f2d2za. News Media Thermometer
+ P045042      Q51.f2d2zb. Catholic Church Thermometer
+ P045043      Q52.f2d2zc. Men Thermometer
+ P045044      Q53.f2d2zd. Women Thermometer
+ P045045a     Q54.f2c1a. R 2004 Voter Turnout-Traditional
+ P045045b     Q55.f2c1b. R 2004 Voter Turnout-Experimental
+ P045045x     Q56.f2c1x. R 2004 Voter Turnout-Summary
+ P045046      Q57.f2c2. Was Non-Voter R Registered To Vote
+ P045047      Q58.f2c2a. Was Voter R Registered In Preload State
+ P045047a     Q59.f2c2a1. State Voter R Registered
+ P045048x     Q60.f2c2x. Voter Registration Status-Summary
+ P045049      Q61.f2c3. Did R Vote For President
+ P045049a     Q62.f2c3a. Presidential Vote Choice
+ P045050      Q64.f2c3a1. Strength Presidential Cand Pref
+ P045051      Q65.f2c3b. Timing Of Presidential Vote Decision
+ P045052      Q68.f2c11a. Did R Vote For US House Of Rep
+ P045053      Q69.f2c11a1. US House Of Rep - R Vote Choice
+ P045054x     Q71.f2c15ax. Checkpoint: Senate Race In State
+ P045054      Q72.f2c15a. Did R Vote For US Senate
+ P045055      Q73.f2c15a1. US Senate R Vote Choice
+ P045056      Q75.f2c20. 2004 Elections Fair/Unfair
+ P045057      Q76.f2f5. R Follow Govt And Public Affairs
+ P045058      Q77.f1j1. R Consider Self Dem/Rep/Ind/Other
+ P045058a     Q79.f1j1a. Strength R Considers Self Dem/Rep
+ P045058b     Q80.f1j1b. Is R Closer To Dem/Rep Party
+ P045058x     Q81.f1j1x. Summary-R Party Preference
+ P045059      Q82.f2b1. Parties Talk To R About Campaign
+ P045059a     Q83.f2b1a. Which Party Spoke To R About Campaign
+ P045060      Q85.f2b9. Anyone Talk To R About Reg/Vote
+ P045061      Q86.f2b2. R Try To Influence Vote Of Others
+ P045062      Q87.f2b3. R Display Campaign Button/Sticker
+ P045063      Q88.f2b4. R Attend Candidate Meetings/Rallies
+ P045064      Q89.f2b5. R Do Other Work For Party/Candidate
+ P045065      Q90.f2b6. Did R Give Money To Candidate
+ P045066      Q91.f2b7. Did R Give Money To Political Party
+ P045067      Q92.f2b8. Did R Give Money To Any Other Group
+ P045068      Q93.f1k2a. Environmental Protection-Federal Spending
+ P045069      Q94.f1k1b. AIDS Research-Federal Spending
+ P045070      Q95.f1k1c. Welfare-Federal Spending
+ P045071a     Q96.f1k1d1a. Public Schools-Federal Spending
+ P045071b     Q97.f1k1d1b. Big-City Schools-Federal Spending
+ P045071x     Q98.f1k1d1. Public/Big-City Schools-Summary
+ P045072      Q99.f1k1e. Crime-Federal Spending
+ P045073      Q100.f1k1f. Child Care-Federal Spending
+ P045074a     Q101.f1k1g1a. Homeland Security-Federal Spending
+ P045074b     Q102.f1k1g1b. War On Terrorism-Federal Spending
+ P045074x     Q103.f1k1g1x. Homeland Sec/War On Terrorism-Summary
+ P045075a     Q104.f1k2b1a. Aid To Poor People-Federal Spending
+ P045075b     Q105.f1j2b1b. Aid To Working Poor-Federal Spending
+ P045075x     Q106.f1k2b1x. Aid To Poor/Working Poor-Summary
+ P045076      Q107.f1k2c. Foreign Aid-Federal Spending
+ P045077      Q108.f1k2d. Social Security-Federal Spending
+ P045078      Q109.f1k2e. Border Security-Federal Spending
+ P045079      Q110.f1k2f. Aid To Blacks - Federal Spending
+ P045080a     Q111.f1k2h1a. Early Ed For Poor Children-Federal Spending
+ P045080b     Q112.f1k2h1b. Early Ed For Black Children-Federal Spending
+ P045080x     Q113.f1k2h1x. Early Ed for Poor/Black Children-Summary
+ P045081      Q114.f2l1b. Defense - Federal Spending
+ P045082      Q115.f1q3c. What Terrorists Wanted To Accomplish
+ P045083      Q118.f1q3e. How Likely Another Terrorist Attack
+ P045084x     Q119.f1q3gx. Checkpoint: F1Q3g Wording
+ P045084a     Q120.f1q3g. App/Disapp Bush War On Terrorism/9-11
+ P045085a     Q121.f1q3g2a. Strength App/Disapp Bush War On Terrorism
+ P045085b     Q122.f1q3g2b. Strength App/Disapp Bush-911
+ P045085x     Q123.f1q3g2x. Strength App/Disapp Bush Resp-Summary
+ P045086      Q124.f1q4a4. War In Afghanistan Worth Cost
+ P045087      Q125.f1q4a4a. War In Iraq Worth Cost
+ P045088      Q126.f1g1. R Better/Worse Off In Last Year
+ P045089      Q127.f1g1a. R How Much Better/Worse Off In Last Yr
+ P045089x     Q128.f1g1ax. R How Much Better/Worse Off-Summary
+ P045090      Q129.f1h1. US Economy Better/Worse In Last Yr
+ P045091      Q130.f1h1a. Extent US Econ Better/Worse In Last Yr
+ P045091x     Q131.f1h1ax. Extent US Econ Better/Worse-Summary
+ P045092      Q132.f2m10d. Extent of Campaign Finance Reform
+ P045093      Q133.f1r1a. Has R Shown Flag In Past 12 Months
+ P045094      Q134.f1j4d. Things About US Make R Ashamed
+ P045095      Q135.f2t7a. How Good Does US Flag Make R Feel
+ P045096      Q136.f2t7b. How Strong Is Rs Love For Country
+ P045097      Q137.f2d3a. Bush Trait-Leadership
+ P045097a     Q137.f2d3a1. Bush Trait-Leadership, 1st Traits Set
+ P045097b     Q137.f2d3a2. Bush Trait-Leadership, 2nd Traits Set
+ P045098      Q138.f2d3b. Bush Trait-Moral
+ P045099      Q139.f2d3c. Bush Trait-Out Of Touch
+ P045100      Q140.f2d3d. Bush Trait-Knowledgeable
+ P045101      Q141.f2d4b. Bush Trait-Cares About People
+ P045102      Q142.f2d4c. Bush Trait-Dishonest
+ P045103      Q143.f2d4d. Bush Trait- Intelligent
+ P045104      Q144.f1h6a. Diplomacy/Military Force Scale
+ P045105      Q145.f1h6a2. Diplomacy/Military Scale-GW Bush
+ P045106      Q146.f1h6a3. Diplomacy/Military Scale-Democrats
+ P045107      Q147.f1h6a4. Diplomacy/Military Scale-Republicans
+ P045108      Q148.f1h6a1. Diplomacy/Military-Importance To R
+ P045109      Q149.f1l5. Increase/Decrease Immigration
+ P045110      Q150.f1l6. Abortion Issue - Self-Placement
+ P045111      Q152.f1l7. Fav/Opp Laws Protect Homosexuals
+ P045112      Q153.f1l7a. Strngth Fav/Opp Laws Protect Homosexuals
+ P045112x     Q154.f1l7ax. Fav/Opp Laws Protect Homosexuals-Summary
+ P045113      Q155.f1h15a. Equal Treatment For Women In Jobs Issue
+ P045113a     Q156.f1h15a1. Govt Ensure Equal Treatment For Women
+ P045114      Q158.f1h15a2. Strngth Govt Ensure Equal Treat Women
+ P045114x     Q159.f1h15a2x. Strngth Govt Equal Treat Women-Summary
+ P045115      Q160.f1h16. What Happens To Women Affect R
+ P045115a     Q161.f1h16a1. What Happens To Women Affect R How Much
+ P045116      Q162.f1h16b. Rs Sense of Pride As A Woman
+ P045117      Q163.f1h16c. Is R Angry About Way Women Treated
+ P045118      Q164.f1l1a. Last 20 Yrs Change In Income Inequality
+ P045118a     Q165.f1l1a1. How Much Diff In Income Inequality
+ P045118x     Q165x.f1l1ax. Diff In Income Inequality - Summary
+ P045118b     Q166.f1l1a2. Income Inequality Good Or Bad
+ P045119      Q167.f1l11a. R Think Pay More/Less Taxes Than Shld
+ P045120      Q168.f1l11b. Rich Pay More/Less Than Shld In Taxes
+ P045121      Q169.f1l11c. Poor Pay More/Less Than Shld In Taxes
+ P045122x     Q170.f1m2at. Checkpoint: F1M2 Wording
+ P045122      Q171.f1m2a. Did R Favor/Oppose Tax Cut
+ P045123a     Q173.f1m2b1. Strength Fav/Opp Tax Cut-Congress Wording
+ P045123b     Q174.f1m2b2. Strength Fav/Opp Tax Cut-GW Bush Wording
+ P045123x     Q175.f1m2bx. Strength R Fav/Opp Tax Cut-Summary
+ P045124      Q176.f1m2c. Dem Party Fav/Opp Tax Cut
+ P045125      Q178.f1m2e. Rep Party Fav/Opp Tax Cut
+ P045126      Q180.f1m2n. Importance Of Tax Cut Issue To R
+ P045127      Q181.f2k7a. Fewer/More Govt Services-Rs Placement
+ P045128      Q182.f2k7b. Fewer/More Govt Services-GW Bush
+ P045129      Q183.f2k7c. Fewer/More Govt Services-Dem Party
+ P045130      Q184.f2k7d. Fewer/More Govt Service-Rep Party
+ P045131      Q185.f2k7a1. Fewer/More Govt Service-Import to R
+ P045132      Q186.f2m5aa. Affirmative Action-Rs Position
+ P045133      Q188.f2m5a. Affirmative Action-GW Bush Position
+ P045134      Q190.f2m5b. Affirmative Action-Dem Party Position
+ P045135      Q192.f2m5c. Affirmative Action-Rep Party Position
+ P045136      Q194.f2m5d. Affirm Action-Importance To R
+ P045137      Q195.f2m6. Govt Ensure Equal Pay For Women
+ P045138      Q196.f2m6a. GW Bush On Equal Pay For Women
+ P045139      Q197.f2m6a1. Dem Party On Equal Pay For Women
+ P045140      Q198.f2m6b. Rep Party On Equal Pay For Women
+ P045141      Q199.f2m6c. Equal Pay For Women - Importance To R
+ P045142      Q200.f1h9. US Position In World-Weaker/Stronger
+ P045143      Q201.f1h12. Agree/Disagree US Should Stay Home
+ P045144      Q202.f2n2b. R Well-Qualified For Political Partic
+ P045145      Q203.f2n2c. R Better Informed Than Most People
+ P045146      Q204.f2n3. Doesn't Matter Whether Vote Or Not
+ P045147      Q205.f2q1a. Public Officials Don't Care
+ P045148      Q206.f2q1b. People Like Me Have No Say
+ P045149      Q207.f2q3a. Trust Govt To Do What Is Right
+ P045150      Q208.f2q4. Govt Wastes Tax Money
+ P045151      Q209.f2q5. Govt Run By Big Interests/Benefit Of All
+ P045152      Q210.f2q6. How Many In Govt Crooked
+ P045153      Q211.f2q7. How Much Elections Make Govt Pay Attn
+ P045154      Q212.f2t6. Satisfaction With How US Democracy Works
+ P045155      Q213.f2t8a. Working Mother Vs Non-Working Mother
+ P045156      Q214.f2t8b. Better If Man Is Achiever Outside Home
+ P045157      Q215.f2t8c. Women Want Equality/Special Favors
+ P045158      Q216.f2k3. Can People Be Trusted
+ P045159      Q217.f2k4. People Take Advantage/Be Fair
+ P045160      Q218.f2k5. People Helpful/Looking Out For Themselves
+ P045161      Q219.f2k2. R Able To Do Volunteer Work Past Year
+ P045162      Q220.f2m12a. R Worked With Others On Community Issue
+ P045163      Q221.f2m12b. Rs Views To Govt In Past Year
+ P045164      Q222.f2m12c. Attend Mtg For School/Comm In Past Yr
+ P045165      Q223.f2m12d. R Member Of Any Organization
+ P045166      Q224.f2m12e. R Give To Church/Charity In Past Year
+ P045167      Q225.f2m12f. R In Protest/March/Demonstration
+ P045168      Q226.f2z1. R Worked With Neighbors On Issue/Problem
+ P045169      Q227.f2z2. Rs Neighbors Out For Themselves
+ P045170      Q228.f2z3a. Rs Neighbors Try To Take Advantage
+ P045171      Q229.f2z3b. Rs Neighbors Treat Others With Respect
+ P045172      Q230.f2z3c. Honest Describes Rs Neighbors
+ P045173      Q231.f1n1. Religion Important Part of Rs Life
+ P045173a     Q232.f1n1a. How Important Religion In Rs Life
+ P045174      Q233.f1n3. Does R Attend Religious Services
+ P045174a     Q234.f1n3a. How Often R Attends Religious Services
+ P045174b     Q235.f1n3a1. Attends Once A Week/More Than Weekly
+ P045175      Q236.f1n4. R Active Member At Place Of Worship
+ P045175a     Q237.f1n4a. R Planned Mtg At Place Of Worship
+ P045175b     Q238.f1n4b. R Given Speech At Place Of Worship
+ P045176      Q239.f3y2. Rs Marital Status
+ P045177      Q240.f3y3. R Attend Undergrad College/University
+ P045178x     Q246.f3y4x. Rs Employment Status-Summary
+ P045179a     Q247.f3y8a. R Planned/Chaired Mtg At Work
+ P045179b     Q248.f3y8b. R Given Presentation/Speech At Work
+ P045180a     Q249.f3z6a. Is Rs Family Income More/Less Than 50K
+ P045180b     Q250.f3z6b. Category Family Income If More Than 50K
+ P045180c     Q251.f3z6c. Category Family Income If Less Than 50K
+ P045180x     Q252.f3z6x. Rs Family Income-Summary
+ P045181      Q253.f3z4. R Have Money In Stock Market
+ P045182      Q254.f3z5b. Family Medicare Benefits
+ P045183      Q255.f3z5c. Family Medicaid Benefits
+ P045184      Q256.f3z5g. Family Retirement Account/Pension
+ P045185a     Q257.f3z7e1. Rs Race/Ethnicity-Mention 1
+ P045185b     Q258.f3z7e2. Rs Race/Ethnicity-Mention 2
+ P045185c     Q259.f3z7e3. Rs Race/Ethnicity-Mention 3
+ P045185x     Q260.f3z7ex. Summary: Rs Race/Ethnicity
+ P045186x     Q263.f3z8x. Checkpoint-Hispanic Mention In F3Z7e
+ P045187      Q264.f3z9. Is R Spanish/Of Hispanic Origin
+ P045188x     Q265.f3z9ax. Summary: Is R Spanish/Of Hispanic Origin
+ P045188      Q266.f3z9a. If R Hispanic - Type
+ P045189x     Q271.f3z1x. Summary: How Long In Present Community
+ P045190x     Q275.f3z2x. Summary: How Long In Current Home
+ P045191      Q276.f3z3. Does R/Rs Family Own Home/Pay Rent
+ P045192      Q277a. Respondent gender (preload)
+ P045193      Q277b. Respondent age (preload)
+ P045201      Q278.f4z4. IWR - Rs Cooperation
+ P045202      Q279.f4z5. IWR - Rs Level of Political Info
+ P045203      Q280.f4z6. IWR - Rs Apparent Intelligence
+ P045204      Q281.f4z7. IWR - How Suspicious R Before Study
+ P045205      Q282.f4z8. IWR - Rs Interest In Interview
+ P045206      Q283.f4z9. IWR - Rs Sincerity
+ P045206a     Q284.f4z9a. IWR - Doubted Rs Sincerity
+ P045209      Q295.f4prob1. IWR - Difficulty Admin IW By Phone
